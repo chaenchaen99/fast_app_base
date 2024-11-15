@@ -28,12 +28,16 @@ final bankMap = {
 
 //Set : 순서가 보장되지 않고, 중복을 허용하지 않는 객체들의 집합
 final bankSet = {
-    bankAccountShinhan1,
+  bankAccountShinhan1,
   bankAccountShinhan2,
   bankAccountShinhan3,
   bankAccountToss,
   bankAccountKakao,
 };
 main() {
-  print(bankSet.cons)
+  print(bankSet.contains(bankAccountShinhan1));
+  //시간 복잡도 : O(1)
+
+  print(bankAccounts.contains(bankAccountShinhan1));
+  //시간 복잡도 : O(n)
 }

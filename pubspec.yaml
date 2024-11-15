@@ -114,10 +114,12 @@ flutter:
     - assets/translations/
     - assets/json/
     - assets/image/illustration/
+    - assets/image/notification/
     - assets/image/credit_card/
     - assets/image/stock/
     - assets/image/bank/
     - assets/
+  
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
