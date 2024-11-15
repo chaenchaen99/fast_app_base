@@ -11,9 +11,12 @@ class BigButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return RoundedContainer(
-      child: Row(
-        children: [text.text.white.size(20).bold.make(), const Arrow()],
+    return Tap(
+      onTap: onTap,
+      child: RoundedContainer(
+        child: Row(
+          children: [text.text.white.size(20).bold.make(), const Arrow()],
+        ),
       ),
     );
   }
