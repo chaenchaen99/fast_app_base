@@ -21,7 +21,7 @@ class _NotificationItemWidgetState extends State<NotificationItemWidget> {
       onTap: widget.onTap,
       child: Container(
         color: widget.notification.isRead
-            ? context.appColors.readColor
+            ? context.appColors.lessImportant
             : context.appColors.unreadColor,
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
         child: Column(

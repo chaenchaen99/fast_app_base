@@ -10,6 +10,7 @@ import '../../../../../common/widget/w_line.dart';
 import '../../../../../common/widget/w_long_button.dart';
 import '../../../../../common/widget/w_rounded_container.dart';
 import '../../../../../common/widget/w_tap.dart';
+import 'w_interest_stock_list.dart';
 
 class MyStockFragment extends StatelessWidget {
   const MyStockFragment({super.key});
@@ -95,7 +96,7 @@ Widget getMyStock(BuildContext context) {
             ),
           ],
         ).pSymmetric(h: 20),
-        // const InterestStockList(),
+        const InterestStockList(),
       ],
     ),
   );
